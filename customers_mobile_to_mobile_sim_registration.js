@@ -1,8 +1,8 @@
 // Ron Penones | June 11th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
 const ibmdb = require('ibm_db');
 
-const housingConnStr = "DATABASE=HOUSING;HOSTNAME=192.168.137.97;UID=db2inst1;PWD=Puday69!;PORT=25000;PROTOCOL=TCPIP";
-const ntcConnStr = "DATABASE=NTC;HOSTNAME=192.168.137.97;UID=db2inst1;PWD=Puday69!;PORT=25000;PROTOCOL=TCPIP";
+const housingConnStr = "DATABASE=HOUSING;HOSTNAME=192.168.137.97;UID=db2inst1;PWD=password;PORT=25000;PROTOCOL=TCPIP";
+const ntcConnStr = "DATABASE=NTC;HOSTNAME=192.168.137.97;UID=db2inst1;PWD=password;PORT=25000;PROTOCOL=TCPIP";
 
 async function checkMatches() {
   const housingDb = await ibmdb.open(housingConnStr);
