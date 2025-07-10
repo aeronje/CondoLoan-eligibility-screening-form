@@ -4,7 +4,9 @@ Please note that the BAGONGPILIPINAS schema is not included in this version.
 If you are using IBM DB2 instead, refer to the 'databases_tables_triggers.md' in the repository for schema-specific setup.
 */
 
---Ron Penones | July 10th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+/*
+Ron Penones | July 10th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+*/
 
 insert into mobile_sim_registration
 
