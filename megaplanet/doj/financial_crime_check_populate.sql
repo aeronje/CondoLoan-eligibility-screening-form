@@ -4,7 +4,9 @@ Please note that the BAGONGPILIPINAS schema is not included in this version.
 If you are using IBM DB2 instead, refer to the 'databases_tables_triggers.md' in the repository for schema-specific setup.
 */
 
---Ron Penones | July 10th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+/*
+Ron Penones | July 10th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+*/
 
 insert into financial_crime_check (CRIME_CASE_NUMBER,CRIME_STATUS,CRIME_FIRST_NAME,CRIME_LAST_NAME,CRIME_CEDULA_TIN,CRIME_LAW_CODE,CRIME_COURT_BRANCH,CRIME_COURT_LOCATION,CRIME_COURT_JUDGE_FIRST_NAME,CRIME_COURT_JUDGE_LAST_NAME)
 
