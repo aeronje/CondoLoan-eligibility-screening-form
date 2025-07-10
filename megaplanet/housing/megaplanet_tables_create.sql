@@ -6,6 +6,16 @@ This SQL file is intended for use with PostgreSQL and DB2.
 Ron Penones | July 10th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
 */
 
+create table megaplanet.customers_potential (meg_id INT generated always as identity primary key,
+meg_first_name VARCHAR(50) not null,
+meg_last_name VARCHAR(50) not null,
+meg_mail VARCHAR(100) not null,
+meg_phone VARCHAR(20) not null,
+meg_bir_tin_principal VARCHAR(20) not null,
+meg_bir_tin_married VARCHAR(20) not null,
+created_at TIMESTAMP default CURRENT_TIMESTAMP not null,
+updated_at TIMESTAMP default CURRENT_TIMESTAMP not null);
+
 CREATE TABLE megaplanet.CUSTOMERS_MOBILE (
   MEG_ID VARCHAR (5),
   MEG_FIRST_NAME VARCHAR(50) NOT NULL,
