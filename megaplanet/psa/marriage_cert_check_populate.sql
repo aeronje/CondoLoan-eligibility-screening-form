@@ -4,10 +4,11 @@ Please note that the BAGONGPILIPINAS schema is not included in this version.
 If you are using IBM DB2 instead, refer to the 'databases_tables_triggers.md' in the repository for schema-specific setup.
 */
 
---Ron Penones | July 10th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+/*
+Ron Penones | July 10th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+*/
 
 insert into marriage_cert_check
-
 
 (MAR_REGISTRY_NUMBER,
 MAR_DATE,
@@ -25,7 +26,6 @@ MAR_HUSBAND_DOB,
 MAR_WIFE_DOB)
 
 values
-
 
 ('1997-4821','1997-07-15','mikha','lechon','2008-04-16','5839201','clara','lowkey','nengneng','dll','834120965','863519724','1973-11-16','1980-08-23'),
 ('1998-7105','1998-02-18','jhoanna','caldereta','2008-11-02','7194306','andres','highkey','ronron','exe','692508731','510237864','1977-07-29','1976-04-01'),
