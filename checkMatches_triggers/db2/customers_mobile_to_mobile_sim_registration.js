@@ -1,7 +1,7 @@
 // Initially tested with IBM DB2, this file contributed to the mini project's evolution, which eventually migrated to PostgreSQL—completing the proof of concept.
 // Contributions are welcome for IBM DB2-related enhancements, or check out the PostgreSQL-aligned JS files for reference.
 
-// Ron Penones | June 12th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+// Ron Penones | July 12th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
 
 const ibmdb = require('ibm_db');
 
