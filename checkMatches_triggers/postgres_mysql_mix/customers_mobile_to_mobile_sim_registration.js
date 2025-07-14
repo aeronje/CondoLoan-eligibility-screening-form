@@ -89,8 +89,9 @@ async function checkmobileMatches() {
   }
 }
 
-// Make it like a routinary sync for every 10 seconds but you can adjust line 96 if you wish to make changes.
+// Make it like a routinary sync for every 10 seconds but you can adjust line 97 if you wish to make changes.
 setInterval(() => {
-  console.log("***MEGAPLANET.CUSTOMERS_MOBILE routinary 10 seconds checkMatches***");
+  const now = new Date().toString(); // raw system date-time, timezone of the server
+  console.log(`[${now}] ***MEGAPLANET.CUSTOMERS_MOBILE routinary 10 seconds checkMatches***`);
   checkmobileMatches();
 }, 10000);
