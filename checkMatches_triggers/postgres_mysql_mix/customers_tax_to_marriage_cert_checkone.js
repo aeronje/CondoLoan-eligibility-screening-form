@@ -16,7 +16,7 @@ async function connectClients() {
     host: '192.168.137.97',
     database: 'housing',
     user: 'donnahp',
-    password: 'Puday69!',
+    password: 'password',
     port: 5432,
   });
 
@@ -24,7 +24,7 @@ async function connectClients() {
     host: '192.168.137.97',
     database: 'psa',
     user: 'donnahp',
-    password: 'Puday69!',
+    password: 'password',
   });
 
   await pgClient.connect();
