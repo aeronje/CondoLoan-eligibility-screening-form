@@ -1,4 +1,4 @@
-// Ron Penones | July 12th 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+// Ron Penones | August 1st 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
 
 const { Client } = require('pg');
 const mysql = require('mysql2/promise');
@@ -53,7 +53,7 @@ async function checkmobileMatches() {
 
       if (matchedSim) {
         console.log(`YES - +63${customer.meg_phone} exists in mobile_sim_registration`);
-        console.log(`mobile_sim_number +63${customer.meg_phone} matched for MEG_ID #${customer.meg_id}`);
+        console.log(`mobile_sim_number +63${customer.meg_phone} matched for MEG_ID ${customer.meg_id}`);
 
         const customerFirst2 = (customer.meg_first_name || '').substring(0, 2).toLowerCase();
         const customerLast2 = (customer.meg_last_name || '').substring(0, 2).toLowerCase();
@@ -61,10 +61,10 @@ async function checkmobileMatches() {
         const simLast2 = (matchedSim.mobile_sim_last_name || '').substring(0, 2).toLowerCase();
 
         if (customerFirst2 === simFirst2 && customerLast2 === simLast2) {
-          console.log(`MEG_ID #${customer.meg_id} for +63${customer.meg_phone} matched first and last names criteria`);
+          console.log(`MEG_ID ${customer.meg_id} for +63${customer.meg_phone} matched first and last names criteria`);
           matchedMegIds.push(String(customer.meg_id));
         } else {
-          console.log(`MEG_ID #${customer.meg_id} for +63${customer.meg_phone} does not match first and last names criteria`);
+          console.log(`MEG_ID ${customer.meg_id} for +63${customer.meg_phone} does not match first and last names criteria`);
         }
 
       } else {
