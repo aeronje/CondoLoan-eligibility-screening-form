@@ -1,3 +1,5 @@
+// Ron Penones | August 2nd 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+
 const { Client } = require('pg');
 const mysql = require('mysql2/promise');
 
@@ -26,7 +28,7 @@ async function connectClients() {
   });
 }
 
-// Make it like a routinary sync for every 10 seconds but you can adjust line 49 if you wish to make changes.
+// Make it like a routinary sync for every 10 seconds but you can adjust line 51 if you wish to make changes.
 let isRunning = false;
 
 setInterval(() => {
